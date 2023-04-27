@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LB3</string>
+    <string name="food">Продукты</string>
+    <string name="bought">Куплено</string>
+    <string name="shaurma">Шаурма</string>
+    <string name="cake">Торт</string>
+    <string name="glazed_curd">Сырок</string>
+</resources>
