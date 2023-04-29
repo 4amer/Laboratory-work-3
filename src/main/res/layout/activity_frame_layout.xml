@@ -12,41 +12,46 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/FrameLayout1">
 
         <Button
             android:id="@+id/button27"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
-            android:text="Button" />
+            android:text="Grid"
+            android:onClick="Grid"/>
 
         <Button
             android:id="@+id/button29"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:layout_gravity="right"
-            android:text="Button" />
+            android:text="Register"
+            android:onClick="Register"/>
 
         <Button
             android:id="@+id/button26"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:layout_gravity="bottom"
-            android:text="Button" />
+            android:text="Relative"
+            android:onClick="Relative"/>
 
         <Button
             android:id="@+id/button28"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:layout_gravity="bottom|end"
-            android:text="Button" />
+            android:text="Table"
+            android:onClick="Table"/>
 
         <Button
             android:id="@+id/button30"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:layout_gravity="center|center_vertical"
-            android:text="Button" />
+            android:text="Click on me" />
 
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
